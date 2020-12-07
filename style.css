@@ -1,0 +1,546 @@
+* { 
+    padding: 0;
+    margin: 0 center;
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+    
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 67px; 
+    background-color: #3A3A3A;
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: nowrap; 
+    border: 0px;
+
+}
+.content {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-nav {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-size: 17px;
+    text-decoration: underline;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.button-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 6px;
+}
+
+
+.start {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    border-radius: 50%;
+
+}
+
+
+.img-portada {
+    background-image: url("img/teclado.jpg");
+    background-color: #8b8b8b;
+    height: 377px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+.article1 {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+.media-content {
+    width: 30%;
+    position: relative;
+}
+.media {
+    display: flex;
+    position: absolute;
+    top: -125px;
+    right: 0px;
+}
+.social-media-content {
+    display: flex;
+    flex-direction: row;
+    width: 122px;
+    align-content: center;
+    justify-content: space-around;
+    font: normal normal 600 8px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+    text-decoration: none;
+    text-justify: center;
+    position: absolute;
+    bottom: -29px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.img-perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    top: 247px;
+    left: 554px;
+    width: 260px;
+    height: 260px;
+}
+.texto-center {
+    text-align: center;
+}
+
+.social-media-content-1 {
+    display: flex;
+    width: 220px;
+    height: 100px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.center-1{
+    display: flex;
+    margin: 0px;
+    text-align: center;
+
+    
+}
+.social-media {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+.social-media-2 {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+.social-media-3 {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+.resumen {
+    flex: 1;
+    font: normal normal 600 21px/34px Segoe UI;
+}
+.resumen-1 {
+    width: 90%;
+    padding-top: 2.5px;
+    margin: 0 auto;
+}
+.nome-resumen {
+    text-align: left;
+    font: normal normal bold 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.cargo-resumen {
+    text-align: left;
+    font: italic normal 300 34px/46px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.saludo {
+    text-align: left;
+    font: normal normal bold 34px/46px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+.img-perfil {
+    width: 200px;
+    height: 200px;
+    background-image: url(img/perfil.jpg);
+}
+
+.formation{
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #DEDEDE;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.titulo-formation {
+    width: 60%;
+    margin: 0 auto;
+    font: normal normal 300 55px/73px Segoe UI;
+    
+}
+
+.content-formation {
+    margin: 0 auto;
+    width: 60%;
+    height: 66px;
+    font: normal normal bold 21px/34px Segoe UI;
+    display: flex;
+    margin-top: 33px;
+    
+}
+.content-1 {
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    color: #707070; 
+    opacity: 1;
+}
+.content-formation-2 {
+    margin: 0 auto;
+    width: 60%;
+    height: 66px;
+    font: normal normal bold 21px/34px Segoe UI;
+    display: flex;
+    margin-top: 33px;
+    
+}
+.content-2 {
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    color: #707070; 
+    opacity: 1;
+}
+
+.ano {
+    font: normal normal 600 13px Segoe UI;
+    margin: 0px;
+
+}
+.estudo {
+    font: normal normal bold 21px Segoe UI;
+    margin: 0px;
+}
+.intituto {
+    font: normal normal 600 13px Segoe UI;
+    margin: 0px;
+}
+.cargo {
+    font: normal normal bold 21px Segoe UI;
+    margin: 0px;
+}
+.empresa {
+    font: normal normal 600 13px Segoe UI;
+    margin: 0px;
+}
+
+.black {
+    width: 8px;
+    height: 66px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.white {
+    width: 8px;
+    height: 66px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.experiencia {
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #434343;
+    margin: 0;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.titulo-experiencia {
+    width: 60%;
+    color: #999999;
+    opacity: 1;
+    font: normal normal 300 73px Segoe UI;
+    margin: 0 auto;
+    text-align: start;
+    padding-bottom: 25px;
+}
+
+.content-3 {
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    color: #999999; 
+    opacity: 1;
+}
+.content-4 {
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+    color: #999999; 
+    opacity: 1;
+}
+
+.content-formation-3 {
+    margin: 0 auto;
+    width: 60%;
+    padding-left: 3px;
+    height: 66px;
+    font: normal normal bold 21px/34px Segoe UI;
+    display: flex;
+    margin-top: 20px;
+}
+
+.content-formation-4 {
+    margin: 0 auto;
+    width: 60%;
+    padding-left: 3px;
+    height: 66px;
+    font: normal normal bold 21px/34px Segoe UI;
+    display: flex;
+    margin-top: 21px;
+}
+.projecto {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+.projecto-figure {
+    width: 260px;
+    height: 335px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 19px;
+    background-color: #FFFFFF;
+}
+.figure-content {
+    display: flex;
+    padding: 0;
+    margin: 0px;
+    justify-content: center;
+    margin-left: 23%;
+    margin-right: 23%;
+    
+}
+.projecto-img {
+    width: 231px;
+    height: 129px;
+    object-fit: cover;
+    object-position: center;
+ 
+
+}
+.titulo-projecto {
+    width: 60%;
+    color: #999999;
+    opacity: 1;
+    font: normal normal 300 73px Segoe UI;
+    margin: 0;
+    text-align: start;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.button-content-1 {
+    display: flex;
+    justify-content: space-around;
+}
+.button-1 {
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    font: normal normal bold 12px/16px Segoe UI;
+    letter-spacing: 0px;
+    background-color:#585858;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    border-radius: 5px;
+    opacity: 1;
+    margin-top: 16px;
+   
+}
+
+
+.contato {
+    background-color: #000000;
+    color: #FFFFFF;
+    align-items: center;
+    
+}
+.titulo-contato {
+    text-align: left;
+    font: normal normal 300 55px/73px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.texto-contato {
+    width: 45%;
+    padding: 2%;
+    color: #707070;
+    text-align: left;
+    font: normal normal normal 16px/28px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+    opacity: 1;
+}
+
+.contato-content {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.formulario {
+    width: 45%;
+    margin: 0 auto;
+    padding-top: 73px;
+    display: flex;
+}
+
+.nome-for {
+    display: flex;
+    height: 34px;
+    border-radius: 4px;
+    font: normal normal bold 13px/17px Segoe UI;
+    margin-top: 17px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    height: 34px;
+    border-radius: 4px;
+    font: normal normal bold 13px/17px Segoe UI;
+    margin-top: 17px;
+}
+
+.assunto {
+    display: flex;
+    flex-direction: column;
+    height: 34px;
+    border-radius: 4px;
+    opacity: 1;
+    font: normal normal bold 13px/17px Segoe UI; 
+    margin-top: 17px;
+}
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    font: normal normal bold 13px/17px Segoe UI;
+    margin-top: 17px;
+
+}
+
+.button-content {
+    display: flex;
+    justify-content: center;
+}
+.button-enviar {
+    width: 122px;
+    height: 34px;
+    text-align: center;
+    font: normal normal bold 12px/16px Segoe UI;
+    background-color:#585858;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    border-radius: 5px;
+    margin-top: 17px;
+   
+}
+
+.input {
+    background: #585858 0% 0% no-repeat padding-box;
+}
+.textarea {
+    background: #585858 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+.content-button-top {
+    display: flex;
+    position: absolute;
+    background-color: aqua;
+}
+.button-top {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    float: left;
+    position: bottom right ;
+    position: -webkit-sticky;
+    position: sticky;
+    right: -50px;
+    bottom: 0px;
+}
+
+.listRepos {
+    width: 60%;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.social-media-4 {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text-media {
+    font-size: 12px;
+}
+
+.social-media-content-1.center-1 a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 12px;
+}
+
+form div input {
+    height: 250px;
+    width: 300px;
+}
+form div textarea {
+    width: 300px;
+}
+
+/* @media (max-width 767px) {
+    .contato-content {
+        display: block;
+    }
+} */
+
+
