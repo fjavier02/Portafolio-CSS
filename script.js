@@ -32,7 +32,7 @@ function createList(inforepos) {
         }
         listRepos.innerHTML = `<div class="row listRepos alert alert-secondary">
         <a href="${list.url}" target="_blank">${list.nome}</a>
-        <p>${list.fork}</p>
+        <p class="fork">${list.fork}</p>
         </div>`;
         section.appendChild(listRepos);
         

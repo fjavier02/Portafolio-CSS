@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0 center;
     box-sizing: border-box;
+    
 }
 html {
     width: 100%;
@@ -537,6 +538,9 @@ form div textarea {
     width: 300px;
 }
 
+.fork {
+    margin-block-end: 0;
+}
 /* @media (max-width 767px) {
     .contato-content {
         display: block;
